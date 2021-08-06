@@ -10,7 +10,7 @@
 </template>
 
 <script>
-	import lufy from '@/lib/lufylegend-2.0.0.beta4.simple.js'
+	// import lufy from '@/lib/lufylegend-2.0.0.beta4.simple.js'
 
 	export default {
 		data() {
@@ -25,13 +25,13 @@
 			//   var vx = 0;
 			//   var layer;
 			
-			//   lufy.LInit(requestAnimationFrame, 'mycanvas', w, h, main);
+			//   LInit(requestAnimationFrame, 'mycanvas', w, h, main);
 			  
 			//   function main(){
-			// 	  layer = new lufy.LSprite();
-			// 	  lufy.addChild(layer);
+			// 	  layer = new LSprite();
+			// 	  addChild(layer);
 			// 	  layer.graphics.drawRect(2, "#ff0000", [10, 10, 50, 100], true, "#880088")
-			// 	  layer.addEventListener(lufy.LEvent.ENTER_FRAME,onEnterFrame);
+			// 	  layer.addEventListener(LEvent.ENTER_FRAME,onEnterFrame);
 			//   }
 			  
 			//   function onEnterFrame(event){

@@ -1,0 +1,1 @@
+<view class="content"><view class="list"><navigator url="/pages/canvas/draw"><button type="default">draw</button></navigator></view></view>

@@ -1,0 +1,6 @@
+
+.polyVideo {
+	width: 100%;
+	height: 420rpx;
+}
+

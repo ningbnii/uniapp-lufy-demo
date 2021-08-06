@@ -1,9 +1,11 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/canvas/draw"
   ],
   "subPackages": [],
   "window": {
+    "navigationStyle": "custom",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
