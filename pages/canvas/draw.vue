@@ -18,7 +18,11 @@
 			var backgroundLayer;
 			var loader;
 		
-			LInit(50,'draw',w,h,main);
+			LInit(50,'draw',w,h,function(){
+				// 如果不设置preventDefault=false，返回上一页，页面不能点击
+				LGlobal.preventDefault = false;
+				main();
+			});
 			
 			function main(){
 				initBackgroundLayer()
@@ -45,9 +49,13 @@
 				addChild(backgroundLayer)
 			}
 		},
+
 		methods: {
 
 			
+
+		},
+		destroyed(){
 			
 		}
 	}
